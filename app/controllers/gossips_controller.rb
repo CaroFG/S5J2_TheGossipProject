@@ -18,11 +18,14 @@ class GossipsController < ApplicationController
 
     if @gossip_new.save
     	redirect_to action:'index'
+    	flash[:success] = "Your gossip has been registered with success, my coño friend!"
     else
-    	render 'new' 
+    	render 'new'
     end
 
     puts @gossip_new.user 
 	end
+
+
 	
 end
