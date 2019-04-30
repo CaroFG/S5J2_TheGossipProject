@@ -5363,3 +5363,1941 @@ Completed 404 Not Found in 1ms (ActiveRecord: 0.0ms)
 ActiveRecord::RecordNotFound (Couldn't find User without an ID):
   
 app/controllers/users_controller.rb:4:in `show'
+Started GET "/" for ::1 at 2019-04-30 15:42:19 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/carolina/.rvm/gems/ruby-2.5.1/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/carolina/.rvm/gems/ruby-2.5.1/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (3.4ms)
+Completed 200 OK in 36ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gossips" for ::1 at 2019-04-30 15:42:24 +0200
+  
+SyntaxError (/home/carolina/THP/S5J2_TheGossipProject/app/controllers/gossips_controller.rb:16: syntax error, unexpected ')'
+		Gossip.create(title: )
+		                     ^):
+  
+app/controllers/gossips_controller.rb:16: syntax error, unexpected ')'
+Started GET "/gossips" for ::1 at 2019-04-30 15:43:06 +0200
+Processing by GossipsController#index as HTML
+  [1m[36mGossip Load (0.8ms)[0m  [1m[34mSELECT "gossips".* FROM "gossips"[0m
+  ↳ app/controllers/gossips_controller.rb:4
+  Rendering gossips/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 28], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 28], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 29], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 29], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  Rendered gossips/index.html.erb within layouts/application (53.5ms)
+Completed 200 OK in 134ms (Views: 60.0ms | ActiveRecord: 42.3ms)
+
+
+Started GET "/gossips" for ::1 at 2019-04-30 15:43:49 +0200
+Processing by GossipsController#index as HTML
+  [1m[36mGossip Load (0.9ms)[0m  [1m[34mSELECT "gossips".* FROM "gossips"[0m
+  ↳ app/controllers/gossips_controller.rb:4
+  Rendering gossips/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 28], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 28], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 29], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 29], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  Rendered gossips/index.html.erb within layouts/application (41.2ms)
+Completed 200 OK in 50ms (Views: 39.6ms | ActiveRecord: 6.6ms)
+
+
+Started GET "/gossips" for ::1 at 2019-04-30 15:44:02 +0200
+Processing by GossipsController#index as HTML
+  [1m[36mGossip Load (0.4ms)[0m  [1m[34mSELECT "gossips".* FROM "gossips"[0m
+  ↳ app/controllers/gossips_controller.rb:4
+  Rendering gossips/index.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 28], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 28], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 29], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 29], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  Rendered gossips/index.html.erb within layouts/application (46.0ms)
+Completed 200 OK in 54ms (Views: 44.6ms | ActiveRecord: 5.2ms)
+
+
+Started GET "/gossips" for ::1 at 2019-04-30 15:44:32 +0200
+Processing by GossipsController#index as HTML
+  [1m[36mGossip Load (0.7ms)[0m  [1m[34mSELECT "gossips".* FROM "gossips"[0m
+  ↳ app/controllers/gossips_controller.rb:4
+  Rendering gossips/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 28], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 28], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 29], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 29], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  Rendered gossips/index.html.erb within layouts/application (28.4ms)
+Completed 200 OK in 35ms (Views: 28.3ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/gossips/new" for ::1 at 2019-04-30 15:44:37 +0200
+Processing by GossipsController#new as HTML
+  Rendering gossips/new.html.erb within layouts/application
+  Rendered gossips/new.html.erb within layouts/application (6.2ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `title' for nil:NilClass):
+    1:     <%= form_tag url_for(action: 'create'), method: "post" do %>
+    2: 
+    3:       <%= label_tag 'Title' %>
+    4:       <%= text_field_tag 'title', @gossip.title %>
+    5:       <br /> <br />
+    6: 
+    7:       <%= label_tag 'Content' %>
+  
+app/views/gossips/new.html.erb:4:in `block in _app_views_gossips_new_html_erb___790170400577631675_47069850205080'
+app/views/gossips/new.html.erb:1:in `_app_views_gossips_new_html_erb___790170400577631675_47069850205080'
+Started GET "/gossips/new" for ::1 at 2019-04-30 15:53:17 +0200
+Processing by GossipsController#new as HTML
+  Rendering gossips/new.html.erb within layouts/application
+  Rendered gossips/new.html.erb within layouts/application (4.1ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `title' for nil:NilClass):
+    1:     <%= form_tag url_for(action: 'create'), method: "post" do %>
+    2: 
+    3:       <%= label_tag 'Title' %>
+    4:       <%= text_field_tag 'title', @gossip.title %>
+    5:       <br /> <br />
+    6: 
+    7:       <%= label_tag 'Content' %>
+  
+app/views/gossips/new.html.erb:4:in `block in _app_views_gossips_new_html_erb___790170400577631675_70262985540760'
+app/views/gossips/new.html.erb:1:in `_app_views_gossips_new_html_erb___790170400577631675_70262985540760'
+Started GET "/gossips/new" for ::1 at 2019-04-30 15:53:20 +0200
+Processing by GossipsController#new as HTML
+  Rendering gossips/new.html.erb within layouts/application
+  Rendered gossips/new.html.erb within layouts/application (3.6ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `title' for nil:NilClass):
+    1:     <%= form_tag url_for(action: 'create'), method: "post" do %>
+    2: 
+    3:       <%= label_tag 'Title' %>
+    4:       <%= text_field_tag 'title', @gossip.title %>
+    5:       <br /> <br />
+    6: 
+    7:       <%= label_tag 'Content' %>
+  
+app/views/gossips/new.html.erb:4:in `block in _app_views_gossips_new_html_erb___790170400577631675_70262989685680'
+app/views/gossips/new.html.erb:1:in `_app_views_gossips_new_html_erb___790170400577631675_70262989685680'
+Started GET "/gossips/new" for ::1 at 2019-04-30 15:53:57 +0200
+Processing by GossipsController#new as HTML
+  Rendering gossips/new.html.erb within layouts/application
+  Rendered gossips/new.html.erb within layouts/application (331.1ms)
+Completed 500 Internal Server Error in 335ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `gossip' for #<#<Class:0x00007fcec0967b20>:0x00007fcec04d8f78>
+Did you mean?  gossip_url):
+    1:     <%= form_tag url_for(action: 'create'), method: "post" do %>
+    2: 
+    3:       <%= label_tag 'Title' %>
+    4:       <%= text_field_tag 'title', gossip.title %>
+    5:       <br /> <br />
+    6: 
+    7:       <%= label_tag 'Content' %>
+  
+app/views/gossips/new.html.erb:4:in `block in _app_views_gossips_new_html_erb___790170400577631675_70262983150820'
+app/views/gossips/new.html.erb:1:in `_app_views_gossips_new_html_erb___790170400577631675_70262983150820'
+Started GET "/gossips/new" for ::1 at 2019-04-30 16:00:04 +0200
+Processing by GossipsController#new as HTML
+  Rendering gossips/new.html.erb within layouts/application
+  Rendered gossips/new.html.erb within layouts/application (320.5ms)
+Completed 500 Internal Server Error in 326ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `gossip' for #<#<Class:0x00007fcec0315a88>:0x00007fcec0314048>
+Did you mean?  gossip_url):
+    1:     <%= form_tag url_for(action: 'create'), method: "post" do %>
+    2: 
+    3:       <%= label_tag 'Title' %>
+    4:       <%= text_field_tag 'title', gossip.title %>
+    5:       <br /> <br />
+    6: 
+    7:       <%= label_tag 'Content' %>
+  
+app/views/gossips/new.html.erb:4:in `block in _app_views_gossips_new_html_erb___790170400577631675_70262982226240'
+app/views/gossips/new.html.erb:1:in `_app_views_gossips_new_html_erb___790170400577631675_70262982226240'
+Started GET "/gossips/new" for ::1 at 2019-04-30 16:00:17 +0200
+Processing by GossipsController#new as HTML
+  Rendering gossips/new.html.erb within layouts/application
+  Rendered gossips/new.html.erb within layouts/application (363.0ms)
+Completed 500 Internal Server Error in 366ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `gossip' for #<#<Class:0x00007fcec0315a88>:0x00007fcec1971db8>
+Did you mean?  gossip_url):
+    1:     <%= form_tag url_for(action: 'create'), method: "post" do %>
+    2: 
+    3:       <%= label_tag 'Title' %>
+    4:       <%= text_field_tag 'title', gossip.title %>
+    5:       <br /> <br />
+    6: 
+    7:       <%= label_tag 'Content' %>
+  
+app/views/gossips/new.html.erb:4:in `block in _app_views_gossips_new_html_erb___790170400577631675_70262993949540'
+app/views/gossips/new.html.erb:1:in `_app_views_gossips_new_html_erb___790170400577631675_70262993949540'
+Started GET "/gossips/new" for ::1 at 2019-04-30 16:00:41 +0200
+Processing by GossipsController#new as HTML
+  Rendering gossips/new.html.erb within layouts/application
+  Rendered gossips/new.html.erb within layouts/application (3.3ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `content' for nil:NilClass):
+     5:       <br /> <br />
+     6: 
+     7:       <%= label_tag 'Content' %>
+     8:       <%= text_area_tag 'content', @gossip.content %>
+     9:       <br /> <br />
+    10: 
+    11:       <%= submit_tag "Create Gossip" %>
+  
+app/views/gossips/new.html.erb:8:in `block in _app_views_gossips_new_html_erb___790170400577631675_70262989210080'
+app/views/gossips/new.html.erb:1:in `_app_views_gossips_new_html_erb___790170400577631675_70262989210080'
+Started GET "/gossips/new" for ::1 at 2019-04-30 16:00:43 +0200
+Processing by GossipsController#new as HTML
+  Rendering gossips/new.html.erb within layouts/application
+  Rendered gossips/new.html.erb within layouts/application (3.8ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `content' for nil:NilClass):
+     5:       <br /> <br />
+     6: 
+     7:       <%= label_tag 'Content' %>
+     8:       <%= text_area_tag 'content', @gossip.content %>
+     9:       <br /> <br />
+    10: 
+    11:       <%= submit_tag "Create Gossip" %>
+  
+app/views/gossips/new.html.erb:8:in `block in _app_views_gossips_new_html_erb___790170400577631675_47069849947400'
+app/views/gossips/new.html.erb:1:in `_app_views_gossips_new_html_erb___790170400577631675_47069849947400'
+Started GET "/gossips/new" for ::1 at 2019-04-30 16:00:55 +0200
+Processing by GossipsController#new as HTML
+  Rendering gossips/new.html.erb within layouts/application
+  Rendered gossips/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/gossips" for ::1 at 2019-04-30 16:01:27 +0200
+Processing by GossipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LpUirR+XQ60c9iG0PbstE0HHwVsvTBw4BsKN4OHMTYVFrJ3AdNlzLyR1Mq2CYbaR3WO4hAeKjinj/flUa0ReGw==", "title"=>"lqlqlql", "content"=>"salut c robin el niño", "commit"=>"Create Gossip"}
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 0..1)):
+  
+app/controllers/gossips_controller.rb:19:in `create'
+Started GET "/gossips" for ::1 at 2019-04-30 16:02:26 +0200
+Processing by GossipsController#index as HTML
+  [1m[36mGossip Load (1.0ms)[0m  [1m[34mSELECT "gossips".* FROM "gossips"[0m
+  ↳ app/controllers/gossips_controller.rb:4
+  Rendering gossips/index.html.erb within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 28], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 28], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 29], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 29], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  Rendered gossips/index.html.erb within layouts/application (55.5ms)
+Completed 200 OK in 84ms (Views: 47.1ms | ActiveRecord: 21.5ms)
+
+
+Started GET "/gossips/new" for ::1 at 2019-04-30 16:02:28 +0200
+Processing by GossipsController#new as HTML
+  Rendering gossips/new.html.erb within layouts/application
+  Rendered gossips/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 9ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/gossips" for ::1 at 2019-04-30 16:02:39 +0200
+Processing by GossipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OJ9R3bqLyV2uzPkrGMKGeKuYABOvak8qOy/9zJgMItRTpu6w0cX535ZP6jKnGB36Nzx5zIes3TveEIl4EoQxSg==", "title"=>"gfdhgfgf", "content"=>"robin", "commit"=>"Create Gossip"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 1)):
+  
+app/controllers/gossips_controller.rb:19:in `create'
+Started POST "/gossips" for ::1 at 2019-04-30 16:02:58 +0200
+Processing by GossipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OJ9R3bqLyV2uzPkrGMKGeKuYABOvak8qOy/9zJgMItRTpu6w0cX535ZP6jKnGB36Nzx5zIes3TveEIl4EoQxSg==", "title"=>"gfdhgfgf", "content"=>"robin", "commit"=>"Create Gossip"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/gossips_controller.rb:19
+  [1m[35m (0.5ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/gossips_controller.rb:19
+No template found for GossipsController#create, rendering head :no_content
+Completed 204 No Content in 505ms (ActiveRecord: 6.8ms)
+
+
+Started GET "/gossips" for ::1 at 2019-04-30 16:03:01 +0200
+Processing by GossipsController#index as HTML
+  [1m[36mGossip Load (0.5ms)[0m  [1m[34mSELECT "gossips".* FROM "gossips"[0m
+  ↳ app/controllers/gossips_controller.rb:4
+  Rendering gossips/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 28], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 28], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 29], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 29], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  Rendered gossips/index.html.erb within layouts/application (44.7ms)
+Completed 200 OK in 52ms (Views: 42.8ms | ActiveRecord: 6.5ms)
+
+
+Started GET "/gossips/new" for ::1 at 2019-04-30 16:03:03 +0200
+Processing by GossipsController#new as HTML
+  Rendering gossips/new.html.erb within layouts/application
+  Rendered gossips/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/gossips" for ::1 at 2019-04-30 16:03:12 +0200
+Processing by GossipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O/DtOZQeecQMnaGsZYJfqf4ot9uiywaO3Bt+Z1K5lf5QyVJU/1BJRjQesrXaWMQrYozOBIoNlJ85JArT2DGGYA==", "title"=>"gfdhgfgf", "content"=>"robin", "commit"=>"Create Gossip"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/gossips_controller.rb:19
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/gossips_controller.rb:19
+No template found for GossipsController#create, rendering head :no_content
+Completed 204 No Content in 27ms (ActiveRecord: 0.4ms)
+
+
+Started POST "/gossips" for ::1 at 2019-04-30 16:03:14 +0200
+Processing by GossipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O/DtOZQeecQMnaGsZYJfqf4ot9uiywaO3Bt+Z1K5lf5QyVJU/1BJRjQesrXaWMQrYozOBIoNlJ85JArT2DGGYA==", "title"=>"gfdhgfgf", "content"=>"robin", "commit"=>"Create Gossip"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/gossips_controller.rb:19
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/gossips_controller.rb:19
+No template found for GossipsController#create, rendering head :no_content
+Completed 204 No Content in 27ms (ActiveRecord: 0.3ms)
+
+
+Started POST "/gossips" for ::1 at 2019-04-30 16:03:14 +0200
+Processing by GossipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O/DtOZQeecQMnaGsZYJfqf4ot9uiywaO3Bt+Z1K5lf5QyVJU/1BJRjQesrXaWMQrYozOBIoNlJ85JArT2DGGYA==", "title"=>"gfdhgfgf", "content"=>"robin", "commit"=>"Create Gossip"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/gossips_controller.rb:19
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/gossips_controller.rb:19
+No template found for GossipsController#create, rendering head :no_content
+Completed 204 No Content in 25ms (ActiveRecord: 0.3ms)
+
+
+Started POST "/gossips" for ::1 at 2019-04-30 16:03:14 +0200
+Processing by GossipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O/DtOZQeecQMnaGsZYJfqf4ot9uiywaO3Bt+Z1K5lf5QyVJU/1BJRjQesrXaWMQrYozOBIoNlJ85JArT2DGGYA==", "title"=>"gfdhgfgf", "content"=>"robin", "commit"=>"Create Gossip"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/gossips_controller.rb:19
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/gossips_controller.rb:19
+No template found for GossipsController#create, rendering head :no_content
+Completed 204 No Content in 25ms (ActiveRecord: 0.4ms)
+
+
+Started POST "/gossips" for ::1 at 2019-04-30 16:03:15 +0200
+Processing by GossipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O/DtOZQeecQMnaGsZYJfqf4ot9uiywaO3Bt+Z1K5lf5QyVJU/1BJRjQesrXaWMQrYozOBIoNlJ85JArT2DGGYA==", "title"=>"gfdhgfgf", "content"=>"robin", "commit"=>"Create Gossip"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/gossips_controller.rb:19
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/gossips_controller.rb:19
+No template found for GossipsController#create, rendering head :no_content
+Completed 204 No Content in 28ms (ActiveRecord: 0.4ms)
+
+
+Started POST "/gossips" for ::1 at 2019-04-30 16:03:15 +0200
+Processing by GossipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O/DtOZQeecQMnaGsZYJfqf4ot9uiywaO3Bt+Z1K5lf5QyVJU/1BJRjQesrXaWMQrYozOBIoNlJ85JArT2DGGYA==", "title"=>"gfdhgfgf", "content"=>"robin", "commit"=>"Create Gossip"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/gossips_controller.rb:19
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/gossips_controller.rb:19
+No template found for GossipsController#create, rendering head :no_content
+Completed 204 No Content in 27ms (ActiveRecord: 0.6ms)
+
+
+Started POST "/gossips" for ::1 at 2019-04-30 16:03:15 +0200
+Processing by GossipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O/DtOZQeecQMnaGsZYJfqf4ot9uiywaO3Bt+Z1K5lf5QyVJU/1BJRjQesrXaWMQrYozOBIoNlJ85JArT2DGGYA==", "title"=>"gfdhgfgf", "content"=>"robin", "commit"=>"Create Gossip"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/gossips_controller.rb:19
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/gossips_controller.rb:19
+No template found for GossipsController#create, rendering head :no_content
+Completed 204 No Content in 28ms (ActiveRecord: 0.4ms)
+
+
+Started POST "/gossips" for ::1 at 2019-04-30 16:03:15 +0200
+Processing by GossipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O/DtOZQeecQMnaGsZYJfqf4ot9uiywaO3Bt+Z1K5lf5QyVJU/1BJRjQesrXaWMQrYozOBIoNlJ85JArT2DGGYA==", "title"=>"gfdhgfgf", "content"=>"robin", "commit"=>"Create Gossip"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/gossips_controller.rb:19
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/gossips_controller.rb:19
+No template found for GossipsController#create, rendering head :no_content
+Completed 204 No Content in 32ms (ActiveRecord: 0.4ms)
+
+
+Started POST "/gossips" for ::1 at 2019-04-30 16:03:16 +0200
+Processing by GossipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O/DtOZQeecQMnaGsZYJfqf4ot9uiywaO3Bt+Z1K5lf5QyVJU/1BJRjQesrXaWMQrYozOBIoNlJ85JArT2DGGYA==", "title"=>"gfdhgfgf", "content"=>"robin", "commit"=>"Create Gossip"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/gossips_controller.rb:19
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/gossips_controller.rb:19
+No template found for GossipsController#create, rendering head :no_content
+Completed 204 No Content in 27ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/gossips" for ::1 at 2019-04-30 16:03:34 +0200
+Processing by GossipsController#index as HTML
+  [1m[36mGossip Load (0.5ms)[0m  [1m[34mSELECT "gossips".* FROM "gossips"[0m
+  ↳ app/controllers/gossips_controller.rb:4
+  Rendering gossips/index.html.erb within layouts/application
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 28], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 28], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 29], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 29], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  Rendered gossips/index.html.erb within layouts/application (52.6ms)
+Completed 200 OK in 86ms (Views: 47.8ms | ActiveRecord: 18.2ms)
+
+
+Started GET "/gossips/new" for ::1 at 2019-04-30 16:03:35 +0200
+Processing by GossipsController#new as HTML
+  Rendering gossips/new.html.erb within layouts/application
+  Rendered gossips/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/gossips" for ::1 at 2019-04-30 16:03:41 +0200
+Processing by GossipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0JHDOWt8JKYHBtlj/Siv9Znh8LjuKutsc9Zl/iZ2tgK7qHxUADIUJD+FynpC8jR3BUWJZ8bseX2W6RFKrP6lnA==", "title"=>"fgfgd", "content"=>"gfgfgfg", "commit"=>"Create Gossip"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (When assigning attributes, you must pass a hash as an argument.):
+  
+app/controllers/gossips_controller.rb:19:in `create'
+Started GET "/gossips" for ::1 at 2019-04-30 16:05:55 +0200
+Processing by GossipsController#index as HTML
+  [1m[36mGossip Load (0.4ms)[0m  [1m[34mSELECT "gossips".* FROM "gossips"[0m
+  ↳ app/controllers/gossips_controller.rb:4
+  Rendering gossips/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 28], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 28], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 29], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 29], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  Rendered gossips/index.html.erb within layouts/application (55.4ms)
+Completed 200 OK in 79ms (Views: 51.7ms | ActiveRecord: 11.2ms)
+
+
+Started GET "/gossips/new" for ::1 at 2019-04-30 16:05:56 +0200
+Processing by GossipsController#new as HTML
+  Rendering gossips/new.html.erb within layouts/application
+  Rendered gossips/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/gossips" for ::1 at 2019-04-30 16:06:01 +0200
+Processing by GossipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GmBIVefikrnNSVCJ6PgIuGV1kpoP6tnfGA006JGfVRdxWfc4jKyiO/XKQ5BXIpM6+dHrRScsS879MkBcGxdGiQ==", "title"=>"lqlqlql", "content"=>"ihgfd", "commit"=>"Create Gossip"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (When assigning attributes, you must pass a hash as an argument.):
+  
+app/controllers/gossips_controller.rb:19:in `create'
+Started GET "/gossips" for ::1 at 2019-04-30 16:06:15 +0200
+Processing by GossipsController#index as HTML
+  [1m[36mGossip Load (0.5ms)[0m  [1m[34mSELECT "gossips".* FROM "gossips"[0m
+  ↳ app/controllers/gossips_controller.rb:4
+  Rendering gossips/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 28], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 28], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 29], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 29], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  Rendered gossips/index.html.erb within layouts/application (42.7ms)
+Completed 200 OK in 70ms (Views: 39.4ms | ActiveRecord: 12.9ms)
+
+
+Started GET "/gossips/new" for ::1 at 2019-04-30 16:06:17 +0200
+Processing by GossipsController#new as HTML
+  Rendering gossips/new.html.erb within layouts/application
+  Rendered gossips/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 7ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/gossips" for ::1 at 2019-04-30 16:06:22 +0200
+Processing by GossipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MZfL5TX/t0doW3yLBlpFJdBtR+MWHgnpyP/mxTj8QpxarnSIXrGHxVDYb5K5gN6nTMk+PD7Ym/gtwJJxsnRRAg==", "title"=>"jhgfd", "content"=>"vgfhf", "commit"=>"Create Gossip"}
+Completed 500 Internal Server Error in 210ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `content' for #<GossipsController:0x00007fcec133cc90>
+Did you mean?  content_type):
+  
+app/controllers/gossips_controller.rb:19:in `create'
+Started GET "/gossips" for ::1 at 2019-04-30 16:08:03 +0200
+Processing by GossipsController#index as HTML
+  [1m[36mGossip Load (0.7ms)[0m  [1m[34mSELECT "gossips".* FROM "gossips"[0m
+  ↳ app/controllers/gossips_controller.rb:4
+  Rendering gossips/index.html.erb within layouts/application
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 28], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 28], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 29], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 29], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  Rendered gossips/index.html.erb within layouts/application (58.2ms)
+Completed 200 OK in 85ms (Views: 51.4ms | ActiveRecord: 15.5ms)
+
+
+Started GET "/gossips/new" for ::1 at 2019-04-30 16:08:04 +0200
+Processing by GossipsController#new as HTML
+  Rendering gossips/new.html.erb within layouts/application
+  Rendered gossips/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 8ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/gossips" for ::1 at 2019-04-30 16:08:08 +0200
+Processing by GossipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"w/76MRHTR9xrIk1ExTH12Dy45W15I2CH7HaVSk9WDU2ox0Vcep13XlOhXl16625aoBycslHl8pYJSeH+xd4e0w==", "title"=>"fghfghgf", "content"=>"fgdg", "commit"=>"Create Gossip"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (When assigning attributes, you must pass a hash as an argument.):
+  
+app/controllers/gossips_controller.rb:19:in `create'
+Started GET "/gossips" for ::1 at 2019-04-30 16:11:41 +0200
+Processing by GossipsController#index as HTML
+  [1m[36mGossip Load (0.6ms)[0m  [1m[34mSELECT "gossips".* FROM "gossips"[0m
+  ↳ app/controllers/gossips_controller.rb:4
+  Rendering gossips/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 28], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 28], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 29], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 29], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  Rendered gossips/index.html.erb within layouts/application (58.2ms)
+Completed 200 OK in 129ms (Views: 54.6ms | ActiveRecord: 13.2ms)
+
+
+Started GET "/gossips/new" for ::1 at 2019-04-30 16:11:43 +0200
+Processing by GossipsController#new as HTML
+  Rendering gossips/new.html.erb within layouts/application
+  Rendered gossips/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 8ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gossips" for ::1 at 2019-04-30 16:12:36 +0200
+Processing by GossipsController#index as HTML
+  [1m[36mGossip Load (1.3ms)[0m  [1m[34mSELECT "gossips".* FROM "gossips"[0m
+  ↳ app/controllers/gossips_controller.rb:4
+  Rendering gossips/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 28], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 28], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 29], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 29], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  Rendered gossips/index.html.erb within layouts/application (49.6ms)
+Completed 200 OK in 81ms (Views: 43.2ms | ActiveRecord: 16.2ms)
+
+
+Started GET "/gossips/new" for ::1 at 2019-04-30 16:12:38 +0200
+Processing by GossipsController#new as HTML
+  Rendering gossips/new.html.erb within layouts/application
+  Rendered gossips/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 9ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gossips/new" for ::1 at 2019-04-30 16:12:54 +0200
+Processing by GossipsController#new as HTML
+  Rendering gossips/new.html.erb within layouts/application
+  Rendered gossips/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 8ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gossips/new" for ::1 at 2019-04-30 16:12:55 +0200
+Processing by GossipsController#new as HTML
+  Rendering gossips/new.html.erb within layouts/application
+  Rendered gossips/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 6ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/gossips" for ::1 at 2019-04-30 16:13:02 +0200
+Processing by GossipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XpOO+AREcCSjqsskfRE7NlHYHQkzzLNWiMWO1dpqPa01qjGVbwpAppsp2D3Cy6C0zXxk1hsKIUdt+vphUOIuMw==", "title"=>"fggfd", "content"=>"dfdfdfd", "commit"=>"Create Gossip"}
+No template found for GossipsController#create, rendering head :no_content
+Completed 204 No Content in 23ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/gossips" for ::1 at 2019-04-30 16:13:03 +0200
+Processing by GossipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XpOO+AREcCSjqsskfRE7NlHYHQkzzLNWiMWO1dpqPa01qjGVbwpAppsp2D3Cy6C0zXxk1hsKIUdt+vphUOIuMw==", "title"=>"fggfd", "content"=>"dfdfdfd", "commit"=>"Create Gossip"}
+No template found for GossipsController#create, rendering head :no_content
+Completed 204 No Content in 22ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/gossips" for ::1 at 2019-04-30 16:13:04 +0200
+Processing by GossipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XpOO+AREcCSjqsskfRE7NlHYHQkzzLNWiMWO1dpqPa01qjGVbwpAppsp2D3Cy6C0zXxk1hsKIUdt+vphUOIuMw==", "title"=>"fggfd", "content"=>"dfdfdfd", "commit"=>"Create Gossip"}
+No template found for GossipsController#create, rendering head :no_content
+Completed 204 No Content in 24ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/gossips/new" for ::1 at 2019-04-30 16:15:59 +0200
+  
+SyntaxError (/home/carolina/THP/S5J2_TheGossipProject/app/controllers/gossips_controller.rb:20: syntax error, unexpected '(', expecting keyword_end
+    @gossip_new(params).save
+               ^):
+  
+app/controllers/gossips_controller.rb:20: syntax error, unexpected '(', expecting keyword_end
+Started GET "/gossips/new" for ::1 at 2019-04-30 16:19:11 +0200
+  
+SyntaxError (/home/carolina/THP/S5J2_TheGossipProject/app/controllers/gossips_controller.rb:20: syntax error, unexpected '(', expecting keyword_end
+    @gossip_new(params)
+               ^):
+  
+app/controllers/gossips_controller.rb:20: syntax error, unexpected '(', expecting keyword_end
+Started GET "/gossips" for ::1 at 2019-04-30 16:19:14 +0200
+  
+SyntaxError (/home/carolina/THP/S5J2_TheGossipProject/app/controllers/gossips_controller.rb:20: syntax error, unexpected '(', expecting keyword_end
+    @gossip_new(params)
+               ^):
+  
+app/controllers/gossips_controller.rb:20: syntax error, unexpected '(', expecting keyword_end
+Started GET "/gossips" for ::1 at 2019-04-30 16:19:17 +0200
+  
+SyntaxError (/home/carolina/THP/S5J2_TheGossipProject/app/controllers/gossips_controller.rb:20: syntax error, unexpected '(', expecting keyword_end
+    @gossip_new(params)
+               ^):
+  
+app/controllers/gossips_controller.rb:20: syntax error, unexpected '(', expecting keyword_end
+Started GET "/gossips/new" for ::1 at 2019-04-30 16:19:35 +0200
+  
+SyntaxError (/home/carolina/THP/S5J2_TheGossipProject/app/controllers/gossips_controller.rb:20: syntax error, unexpected '(', expecting keyword_end
+    @gossip_new(params)
+               ^):
+  
+app/controllers/gossips_controller.rb:20: syntax error, unexpected '(', expecting keyword_end
+Started GET "/gossips/" for ::1 at 2019-04-30 16:19:39 +0200
+  
+SyntaxError (/home/carolina/THP/S5J2_TheGossipProject/app/controllers/gossips_controller.rb:20: syntax error, unexpected '(', expecting keyword_end
+    @gossip_new(params)
+               ^):
+  
+app/controllers/gossips_controller.rb:20: syntax error, unexpected '(', expecting keyword_end
+Started GET "/gossips/" for ::1 at 2019-04-30 16:22:22 +0200
+  
+SyntaxError (/home/carolina/THP/S5J2_TheGossipProject/app/controllers/gossips_controller.rb:20: syntax error, unexpected '(', expecting keyword_end
+    @gossip_new(params[:title, :content])
+               ^
+/home/carolina/THP/S5J2_TheGossipProject/app/controllers/gossips_controller.rb:20: syntax error, unexpected ')', expecting keyword_end
+...p_new(params[:title, :content])
+...                              ^):
+  
+app/controllers/gossips_controller.rb:20: syntax error, unexpected '(', expecting keyword_end
+app/controllers/gossips_controller.rb:20: syntax error, unexpected ')', expecting keyword_end
+Started GET "/gossips/" for ::1 at 2019-04-30 16:23:08 +0200
+  
+SyntaxError (/home/carolina/THP/S5J2_TheGossipProject/app/controllers/gossips_controller.rb:20: syntax error, unexpected '(', expecting keyword_end
+    @gossip_new(params[:title],[:content])
+               ^
+/home/carolina/THP/S5J2_TheGossipProject/app/controllers/gossips_controller.rb:20: syntax error, unexpected ')', expecting &. or :: or '[' or '.'
+..._new(params[:title],[:content])
+...                              ^):
+  
+app/controllers/gossips_controller.rb:20: syntax error, unexpected '(', expecting keyword_end
+app/controllers/gossips_controller.rb:20: syntax error, unexpected ')', expecting &. or :: or '[' or '.'
+Started GET "/gossips/" for ::1 at 2019-04-30 16:23:33 +0200
+  
+SyntaxError (/home/carolina/THP/S5J2_TheGossipProject/app/controllers/gossips_controller.rb:20: syntax error, unexpected '(', expecting keyword_end
+    @gossip_new(params[:title][:content])
+               ^
+/home/carolina/THP/S5J2_TheGossipProject/app/controllers/gossips_controller.rb:20: syntax error, unexpected ')', expecting keyword_end
+...p_new(params[:title][:content])
+...                              ^):
+  
+app/controllers/gossips_controller.rb:20: syntax error, unexpected '(', expecting keyword_end
+app/controllers/gossips_controller.rb:20: syntax error, unexpected ')', expecting keyword_end
+Started GET "/gossips/" for ::1 at 2019-04-30 16:23:34 +0200
+  
+SyntaxError (/home/carolina/THP/S5J2_TheGossipProject/app/controllers/gossips_controller.rb:20: syntax error, unexpected '(', expecting keyword_end
+    @gossip_new(params[:title][:content])
+               ^
+/home/carolina/THP/S5J2_TheGossipProject/app/controllers/gossips_controller.rb:20: syntax error, unexpected ')', expecting keyword_end
+...p_new(params[:title][:content])
+...                              ^):
+  
+app/controllers/gossips_controller.rb:20: syntax error, unexpected '(', expecting keyword_end
+app/controllers/gossips_controller.rb:20: syntax error, unexpected ')', expecting keyword_end
+Started GET "/gossips/" for ::1 at 2019-04-30 16:23:34 +0200
+  
+SyntaxError (/home/carolina/THP/S5J2_TheGossipProject/app/controllers/gossips_controller.rb:20: syntax error, unexpected '(', expecting keyword_end
+    @gossip_new(params[:title][:content])
+               ^
+/home/carolina/THP/S5J2_TheGossipProject/app/controllers/gossips_controller.rb:20: syntax error, unexpected ')', expecting keyword_end
+...p_new(params[:title][:content])
+...                              ^):
+  
+app/controllers/gossips_controller.rb:20: syntax error, unexpected '(', expecting keyword_end
+app/controllers/gossips_controller.rb:20: syntax error, unexpected ')', expecting keyword_end
+Started GET "/gossips/" for ::1 at 2019-04-30 16:23:34 +0200
+  
+Started GET "/gossips/" for ::1 at 2019-04-30 16:23:34 +0200
+SyntaxError (/home/carolina/THP/S5J2_TheGossipProject/app/controllers/gossips_controller.rb:20: syntax error, unexpected '(', expecting keyword_end
+    @gossip_new(params[:title][:content])
+               ^
+/home/carolina/THP/S5J2_TheGossipProject/app/controllers/gossips_controller.rb:20: syntax error, unexpected ')', expecting keyword_end
+...p_new(params[:title][:content])
+...                              ^):
+  
+app/controllers/gossips_controller.rb:20: syntax error, unexpected '(', expecting keyword_end
+app/controllers/gossips_controller.rb:20: syntax error, unexpected ')', expecting keyword_end
+  
+SyntaxError (/home/carolina/THP/S5J2_TheGossipProject/app/controllers/gossips_controller.rb:20: syntax error, unexpected '(', expecting keyword_end
+    @gossip_new(params[:title][:content])
+               ^
+/home/carolina/THP/S5J2_TheGossipProject/app/controllers/gossips_controller.rb:20: syntax error, unexpected ')', expecting keyword_end
+...p_new(params[:title][:content])
+...                              ^):
+  
+Started GET "/gossips/" for ::1 at 2019-04-30 16:23:34 +0200
+app/controllers/gossips_controller.rb:20: syntax error, unexpected '(', expecting keyword_end
+app/controllers/gossips_controller.rb:20: syntax error, unexpected ')', expecting keyword_end
+Started GET "/gossips/" for ::1 at 2019-04-30 16:23:34 +0200
+  
+  
+SyntaxError (/home/carolina/THP/S5J2_TheGossipProject/app/controllers/gossips_controller.rb:20: syntax error, unexpected '(', expecting keyword_end
+    @gossip_new(params[:title][:content])
+               ^
+/home/carolina/THP/S5J2_TheGossipProject/app/controllers/gossips_controller.rb:20: syntax error, unexpected ')', expecting keyword_end
+...p_new(params[:title][:content])
+...                              ^):
+SyntaxError (/home/carolina/THP/S5J2_TheGossipProject/app/controllers/gossips_controller.rb:20: syntax error, unexpected '(', expecting keyword_end
+    @gossip_new(params[:title][:content])
+               ^
+/home/carolina/THP/S5J2_TheGossipProject/app/controllers/gossips_controller.rb:20: syntax error, unexpected ')', expecting keyword_end
+...p_new(params[:title][:content])
+...                              ^):
+  
+app/controllers/gossips_controller.rb:20: syntax error, unexpected '(', expecting keyword_end
+app/controllers/gossips_controller.rb:20: syntax error, unexpected ')', expecting keyword_end
+  
+app/controllers/gossips_controller.rb:20: syntax error, unexpected '(', expecting keyword_end
+app/controllers/gossips_controller.rb:20: syntax error, unexpected ')', expecting keyword_end
+Started GET "/gossips/" for ::1 at 2019-04-30 16:23:36 +0200
+  
+SyntaxError (/home/carolina/THP/S5J2_TheGossipProject/app/controllers/gossips_controller.rb:20: syntax error, unexpected '(', expecting keyword_end
+    @gossip_new(params[:title][:content])
+               ^
+/home/carolina/THP/S5J2_TheGossipProject/app/controllers/gossips_controller.rb:20: syntax error, unexpected ')', expecting keyword_end
+...p_new(params[:title][:content])
+...                              ^):
+  
+app/controllers/gossips_controller.rb:20: syntax error, unexpected '(', expecting keyword_end
+app/controllers/gossips_controller.rb:20: syntax error, unexpected ')', expecting keyword_end
+Started GET "/gossips/" for ::1 at 2019-04-30 16:24:42 +0200
+  
+SyntaxError (/home/carolina/THP/S5J2_TheGossipProject/app/controllers/gossips_controller.rb:20: syntax error, unexpected '(', expecting keyword_end
+    @gossip_new(params[:title], params[:conte...
+               ^
+/home/carolina/THP/S5J2_TheGossipProject/app/controllers/gossips_controller.rb:20: syntax error, unexpected ')', expecting '='
+...rams[:title], params[:content])
+...                              ^):
+  
+app/controllers/gossips_controller.rb:20: syntax error, unexpected '(', expecting keyword_end
+app/controllers/gossips_controller.rb:20: syntax error, unexpected ')', expecting '='
+Started GET "/gossips/" for ::1 at 2019-04-30 16:27:32 +0200
+  
+SyntaxError (/home/carolina/THP/S5J2_TheGossipProject/app/controllers/gossips_controller.rb:20: syntax error, unexpected '(', expecting keyword_end
+    @gossip_new(params[:title], params[:conte...
+               ^
+/home/carolina/THP/S5J2_TheGossipProject/app/controllers/gossips_controller.rb:20: syntax error, unexpected ')', expecting '='
+...rams[:title], params[:content]).save
+...                              ^):
+  
+app/controllers/gossips_controller.rb:20: syntax error, unexpected '(', expecting keyword_end
+app/controllers/gossips_controller.rb:20: syntax error, unexpected ')', expecting '='
+Started GET "/gossips/" for ::1 at 2019-04-30 16:27:54 +0200
+  
+SyntaxError (/home/carolina/THP/S5J2_TheGossipProject/app/controllers/gossips_controller.rb:20: syntax error, unexpected '(', expecting keyword_end
+    @gossip_new(params[:title], params[:conte...
+               ^
+/home/carolina/THP/S5J2_TheGossipProject/app/controllers/gossips_controller.rb:20: syntax error, unexpected ')', expecting '='
+...rams[:title], params[:content])
+...                              ^):
+  
+app/controllers/gossips_controller.rb:20: syntax error, unexpected '(', expecting keyword_end
+app/controllers/gossips_controller.rb:20: syntax error, unexpected ')', expecting '='
+Started GET "/gossips/" for ::1 at 2019-04-30 16:27:59 +0200
+  
+SyntaxError (/home/carolina/THP/S5J2_TheGossipProject/app/controllers/gossips_controller.rb:20: syntax error, unexpected '(', expecting keyword_end
+    @gossip_new(params[:title], params[:conte...
+               ^
+/home/carolina/THP/S5J2_TheGossipProject/app/controllers/gossips_controller.rb:20: syntax error, unexpected ')', expecting '='
+...rams[:title], params[:content])
+...                              ^):
+  
+app/controllers/gossips_controller.rb:20: syntax error, unexpected '(', expecting keyword_end
+app/controllers/gossips_controller.rb:20: syntax error, unexpected ')', expecting '='
+Started GET "/gossips/" for ::1 at 2019-04-30 16:28:43 +0200
+  
+SyntaxError (/home/carolina/THP/S5J2_TheGossipProject/app/controllers/gossips_controller.rb:12: syntax error, unexpected ','
+...ossip_new = Gossip.new(title: , content: )
+...                              ^
+/home/carolina/THP/S5J2_TheGossipProject/app/controllers/gossips_controller.rb:20: syntax error, unexpected '(', expecting keyword_end
+    @gossip_new(params[:title], params[:conte...
+               ^
+/home/carolina/THP/S5J2_TheGossipProject/app/controllers/gossips_controller.rb:20: syntax error, unexpected ')', expecting '='
+...rams[:title], params[:content])
+...                              ^
+/home/carolina/THP/S5J2_TheGossipProject/app/controllers/gossips_controller.rb:24: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/gossips_controller.rb:12: syntax error, unexpected ','
+app/controllers/gossips_controller.rb:20: syntax error, unexpected '(', expecting keyword_end
+app/controllers/gossips_controller.rb:20: syntax error, unexpected ')', expecting '='
+app/controllers/gossips_controller.rb:24: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/gossips/" for ::1 at 2019-04-30 16:31:43 +0200
+  
+SyntaxError (/home/carolina/THP/S5J2_TheGossipProject/app/controllers/gossips_controller.rb:20: syntax error, unexpected '(', expecting keyword_end
+    @gossip_new(params[:title], params[:conte...
+               ^
+/home/carolina/THP/S5J2_TheGossipProject/app/controllers/gossips_controller.rb:20: syntax error, unexpected ')', expecting '='
+...rams[:title], params[:content])
+...                              ^):
+  
+app/controllers/gossips_controller.rb:20: syntax error, unexpected '(', expecting keyword_end
+app/controllers/gossips_controller.rb:20: syntax error, unexpected ')', expecting '='
+Started GET "/gossips/" for ::1 at 2019-04-30 16:33:21 +0200
+Processing by GossipsController#index as HTML
+  [1m[36mGossip Load (1.0ms)[0m  [1m[34mSELECT "gossips".* FROM "gossips"[0m
+  ↳ app/controllers/gossips_controller.rb:4
+  Rendering gossips/index.html.erb within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 28], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 28], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 29], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 29], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  Rendered gossips/index.html.erb within layouts/application (64.2ms)
+Completed 200 OK in 95ms (Views: 56.9ms | ActiveRecord: 19.9ms)
+
+
+Started GET "/gossips/new" for ::1 at 2019-04-30 16:33:24 +0200
+Processing by GossipsController#new as HTML
+  Rendering gossips/new.html.erb within layouts/application
+  Rendered gossips/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 8ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/gossips" for ::1 at 2019-04-30 16:33:30 +0200
+Processing by GossipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"klpGGOhTK13eOSguXmPjLI/p2ZYi33gDcNUJ1aatiD35Y/l1gx0b3+a6OzfhuXiuE02gSQoZ6hKV6n1hLCWbow==", "title"=>"jhgfd", "content"=>"kjhgfd", "commit"=>"Create Gossip"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `title=' for nil:NilClass):
+  
+app/controllers/gossips_controller.rb:20:in `create'
+  [1m[36mGossip Load (0.7ms)[0m  [1m[34mSELECT "gossips".* FROM "gossips"[0m
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+Started GET "/gossips" for ::1 at 2019-04-30 16:38:38 +0200
+Processing by GossipsController#index as HTML
+  [1m[36mGossip Load (0.8ms)[0m  [1m[34mSELECT "gossips".* FROM "gossips"[0m
+  ↳ app/controllers/gossips_controller.rb:4
+  Rendering gossips/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 28], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 28], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 29], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 29], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  Rendered gossips/index.html.erb within layouts/application (58.1ms)
+Completed 200 OK in 87ms (Views: 53.7ms | ActiveRecord: 16.6ms)
+
+
+Started GET "/gossips/new" for ::1 at 2019-04-30 16:38:41 +0200
+Processing by GossipsController#new as HTML
+  Rendering gossips/new.html.erb within layouts/application
+  Rendered gossips/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 8ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/gossips" for ::1 at 2019-04-30 16:38:46 +0200
+Processing by GossipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RgxsB8/sY7eVSlVKGuEsVYbZRJe18g7HGh9076fer0EtNdNqpKJTNa3JRlOlO7fXGn09SJ00nNb/IABbLVa83w==", "title"=>"kjhgfd", "content"=>"gfhgfhfg", "commit"=>"Create Gossip"}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `title=' for nil:NilClass):
+  
+app/controllers/gossips_controller.rb:20:in `create'
+Started POST "/gossips" for ::1 at 2019-04-30 16:40:16 +0200
+  
+SyntaxError (/home/carolina/THP/S5J2_TheGossipProject/app/controllers/gossips_controller.rb:20: syntax error, unexpected '(', expecting keyword_end
+    @gossip_new(params[:title])
+               ^
+/home/carolina/THP/S5J2_TheGossipProject/app/controllers/gossips_controller.rb:20: syntax error, unexpected ')', expecting keyword_end
+    @gossip_new(params[:title])
+                              ^
+/home/carolina/THP/S5J2_TheGossipProject/app/controllers/gossips_controller.rb:21: syntax error, unexpected ')', expecting keyword_end
+...  @gossip_new(params[:content])
+...                              ^):
+  
+app/controllers/gossips_controller.rb:20: syntax error, unexpected '(', expecting keyword_end
+app/controllers/gossips_controller.rb:20: syntax error, unexpected ')', expecting keyword_end
+app/controllers/gossips_controller.rb:21: syntax error, unexpected ')', expecting keyword_end
+Started GET "/gossips" for ::1 at 2019-04-30 16:40:22 +0200
+  
+SyntaxError (/home/carolina/THP/S5J2_TheGossipProject/app/controllers/gossips_controller.rb:20: syntax error, unexpected '(', expecting keyword_end
+    @gossip_new(params[:title])
+               ^
+/home/carolina/THP/S5J2_TheGossipProject/app/controllers/gossips_controller.rb:20: syntax error, unexpected ')', expecting keyword_end
+    @gossip_new(params[:title])
+                              ^
+/home/carolina/THP/S5J2_TheGossipProject/app/controllers/gossips_controller.rb:21: syntax error, unexpected ')', expecting keyword_end
+...  @gossip_new(params[:content])
+...                              ^):
+  
+app/controllers/gossips_controller.rb:20: syntax error, unexpected '(', expecting keyword_end
+app/controllers/gossips_controller.rb:20: syntax error, unexpected ')', expecting keyword_end
+app/controllers/gossips_controller.rb:21: syntax error, unexpected ')', expecting keyword_end
+Started GET "/gossips" for ::1 at 2019-04-30 16:40:42 +0200
+  
+SyntaxError (/home/carolina/THP/S5J2_TheGossipProject/app/controllers/gossips_controller.rb:21: syntax error, unexpected '(', expecting keyword_end
+    @gossip_new(params[:content])
+               ^
+/home/carolina/THP/S5J2_TheGossipProject/app/controllers/gossips_controller.rb:21: syntax error, unexpected ')', expecting keyword_end
+...  @gossip_new(params[:content])
+...                              ^):
+  
+app/controllers/gossips_controller.rb:21: syntax error, unexpected '(', expecting keyword_end
+app/controllers/gossips_controller.rb:21: syntax error, unexpected ')', expecting keyword_end
+Started GET "/gossips" for ::1 at 2019-04-30 16:40:53 +0200
+Processing by GossipsController#index as HTML
+  [1m[36mGossip Load (0.5ms)[0m  [1m[34mSELECT "gossips".* FROM "gossips"[0m
+  ↳ app/controllers/gossips_controller.rb:4
+  Rendering gossips/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 28], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 28], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 29], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 29], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  Rendered gossips/index.html.erb within layouts/application (63.7ms)
+Completed 200 OK in 94ms (Views: 64.3ms | ActiveRecord: 11.6ms)
+
+
+Started GET "/gossips/new" for ::1 at 2019-04-30 16:40:56 +0200
+Processing by GossipsController#new as HTML
+  Rendering gossips/new.html.erb within layouts/application
+  Rendered gossips/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 9ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/gossips" for ::1 at 2019-04-30 16:41:01 +0200
+Processing by GossipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yXNCGy0bq2l2yDTeX2sKyezHY7ORgR/VWyla7uEi/fWiSv12RlWb605LJ8fgsZFLcGMabLlHjcS+Fi5aa6ruaw==", "title"=>"jhgfd", "content"=>"rteterte", "commit"=>"Create Gossip"}
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `save' for "rteterte":String):
+  
+app/controllers/gossips_controller.rb:22:in `create'
+Started POST "/gossips" for ::1 at 2019-04-30 16:42:37 +0200
+Processing by GossipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yXNCGy0bq2l2yDTeX2sKyezHY7ORgR/VWyla7uEi/fWiSv12RlWb605LJ8fgsZFLcGMabLlHjcS+Fi5aa6ruaw==", "title"=>"jhgfd", "content"=>"rteterte", "commit"=>"Create Gossip"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `title=' for nil:NilClass):
+  
+app/controllers/gossips_controller.rb:20:in `create'
+Started POST "/gossips" for ::1 at 2019-04-30 16:47:26 +0200
+  
+SyntaxError (/home/carolina/THP/S5J2_TheGossipProject/app/controllers/gossips_controller.rb:16: syntax error, unexpected ':', expecting keyword_end
+    @gossip_new = title: params[:title]
+                       ^
+/home/carolina/THP/S5J2_TheGossipProject/app/controllers/gossips_controller.rb:17: syntax error, unexpected ':', expecting keyword_end
+    @gossip_new = content: params[:content]
+                         ^):
+  
+app/controllers/gossips_controller.rb:16: syntax error, unexpected ':', expecting keyword_end
+app/controllers/gossips_controller.rb:17: syntax error, unexpected ':', expecting keyword_end
+Started GET "/gossips" for ::1 at 2019-04-30 16:47:33 +0200
+  
+SyntaxError (/home/carolina/THP/S5J2_TheGossipProject/app/controllers/gossips_controller.rb:16: syntax error, unexpected ':', expecting keyword_end
+    @gossip_new = title: params[:title]
+                       ^
+/home/carolina/THP/S5J2_TheGossipProject/app/controllers/gossips_controller.rb:17: syntax error, unexpected ':', expecting keyword_end
+    @gossip_new = content: params[:content]
+                         ^):
+  
+app/controllers/gossips_controller.rb:16: syntax error, unexpected ':', expecting keyword_end
+app/controllers/gossips_controller.rb:17: syntax error, unexpected ':', expecting keyword_end
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+Started GET "/gossips" for ::1 at 2019-04-30 16:50:05 +0200
+Processing by GossipsController#index as HTML
+  [1m[36mGossip Load (0.8ms)[0m  [1m[34mSELECT "gossips".* FROM "gossips"[0m
+  ↳ app/controllers/gossips_controller.rb:4
+  Rendering gossips/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 28], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 28], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 29], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 29], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  Rendered gossips/index.html.erb within layouts/application (49.3ms)
+Completed 200 OK in 79ms (Views: 44.6ms | ActiveRecord: 13.8ms)
+
+
+Started GET "/gossips/new" for ::1 at 2019-04-30 16:50:07 +0200
+Processing by GossipsController#new as HTML
+  Rendering gossips/new.html.erb within layouts/application
+  Rendered gossips/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 9ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/gossips" for ::1 at 2019-04-30 16:50:13 +0200
+Processing by GossipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nOnPlcB+YmNcNbWsEewTB+a43J4pM0S2TitKBvhmVYT30HD4qzBS4WS2prWuNoiFehylQQH11qerFD6ycu5GGg==", "title"=>"couco", "content"=>"coucoucoucou", "commit"=>"Create Gossip"}
+No template found for GossipsController#create, rendering head :no_content
+Completed 204 No Content in 24ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/gossips" for ::1 at 2019-04-30 16:50:14 +0200
+Processing by GossipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nOnPlcB+YmNcNbWsEewTB+a43J4pM0S2TitKBvhmVYT30HD4qzBS4WS2prWuNoiFehylQQH11qerFD6ycu5GGg==", "title"=>"couco", "content"=>"coucoucoucou", "commit"=>"Create Gossip"}
+No template found for GossipsController#create, rendering head :no_content
+Completed 204 No Content in 23ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/gossips" for ::1 at 2019-04-30 16:50:15 +0200
+Processing by GossipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nOnPlcB+YmNcNbWsEewTB+a43J4pM0S2TitKBvhmVYT30HD4qzBS4WS2prWuNoiFehylQQH11qerFD6ycu5GGg==", "title"=>"couco", "content"=>"coucoucoucou", "commit"=>"Create Gossip"}
+No template found for GossipsController#create, rendering head :no_content
+Completed 204 No Content in 22ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/gossips" for ::1 at 2019-04-30 16:50:15 +0200
+Processing by GossipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nOnPlcB+YmNcNbWsEewTB+a43J4pM0S2TitKBvhmVYT30HD4qzBS4WS2prWuNoiFehylQQH11qerFD6ycu5GGg==", "title"=>"couco", "content"=>"coucoucoucou", "commit"=>"Create Gossip"}
+No template found for GossipsController#create, rendering head :no_content
+Completed 204 No Content in 28ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/gossips" for ::1 at 2019-04-30 16:50:15 +0200
+Processing by GossipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nOnPlcB+YmNcNbWsEewTB+a43J4pM0S2TitKBvhmVYT30HD4qzBS4WS2prWuNoiFehylQQH11qerFD6ycu5GGg==", "title"=>"couco", "content"=>"coucoucoucou", "commit"=>"Create Gossip"}
+No template found for GossipsController#create, rendering head :no_content
+Completed 204 No Content in 25ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/gossips" for ::1 at 2019-04-30 16:50:15 +0200
+Processing by GossipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nOnPlcB+YmNcNbWsEewTB+a43J4pM0S2TitKBvhmVYT30HD4qzBS4WS2prWuNoiFehylQQH11qerFD6ycu5GGg==", "title"=>"couco", "content"=>"coucoucoucou", "commit"=>"Create Gossip"}
+No template found for GossipsController#create, rendering head :no_content
+Completed 204 No Content in 24ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/gossips" for ::1 at 2019-04-30 16:50:15 +0200
+Processing by GossipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nOnPlcB+YmNcNbWsEewTB+a43J4pM0S2TitKBvhmVYT30HD4qzBS4WS2prWuNoiFehylQQH11qerFD6ycu5GGg==", "title"=>"couco", "content"=>"coucoucoucou", "commit"=>"Create Gossip"}
+No template found for GossipsController#create, rendering head :no_content
+Completed 204 No Content in 25ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/gossips" for ::1 at 2019-04-30 16:50:15 +0200
+Processing by GossipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nOnPlcB+YmNcNbWsEewTB+a43J4pM0S2TitKBvhmVYT30HD4qzBS4WS2prWuNoiFehylQQH11qerFD6ycu5GGg==", "title"=>"couco", "content"=>"coucoucoucou", "commit"=>"Create Gossip"}
+No template found for GossipsController#create, rendering head :no_content
+Completed 204 No Content in 20ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/gossips" for ::1 at 2019-04-30 16:50:16 +0200
+Processing by GossipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nOnPlcB+YmNcNbWsEewTB+a43J4pM0S2TitKBvhmVYT30HD4qzBS4WS2prWuNoiFehylQQH11qerFD6ycu5GGg==", "title"=>"couco", "content"=>"coucoucoucou", "commit"=>"Create Gossip"}
+No template found for GossipsController#create, rendering head :no_content
+Completed 204 No Content in 26ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/gossips" for ::1 at 2019-04-30 16:50:16 +0200
+Processing by GossipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nOnPlcB+YmNcNbWsEewTB+a43J4pM0S2TitKBvhmVYT30HD4qzBS4WS2prWuNoiFehylQQH11qerFD6ycu5GGg==", "title"=>"couco", "content"=>"coucoucoucou", "commit"=>"Create Gossip"}
+No template found for GossipsController#create, rendering head :no_content
+Completed 204 No Content in 22ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/gossips" for ::1 at 2019-04-30 16:50:16 +0200
+Processing by GossipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nOnPlcB+YmNcNbWsEewTB+a43J4pM0S2TitKBvhmVYT30HD4qzBS4WS2prWuNoiFehylQQH11qerFD6ycu5GGg==", "title"=>"couco", "content"=>"coucoucoucou", "commit"=>"Create Gossip"}
+No template found for GossipsController#create, rendering head :no_content
+Completed 204 No Content in 24ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/gossips/new" for ::1 at 2019-04-30 16:51:03 +0200
+Processing by GossipsController#new as HTML
+  Rendering gossips/new.html.erb within layouts/application
+  Rendered gossips/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 22ms (Views: 4.6ms | ActiveRecord: 3.5ms)
+
+
+Started POST "/gossips" for ::1 at 2019-04-30 16:51:10 +0200
+Processing by GossipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XLJSEVud7k8bqWcNJV8lc6oNb0i0ZtvZEHuL8g2nkYg3i+18MNPezSMqdBSahb7xNqkWl5ygScj1RP9Ghy+CFg==", "title"=>"jhgf", "content"=>"gfgfgfgf", "commit"=>"Create Gossip"}
+No template found for GossipsController#create, rendering head :no_content
+Completed 204 No Content in 25ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/gossips" for ::1 at 2019-04-30 16:52:37 +0200
+Processing by GossipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XLJSEVud7k8bqWcNJV8lc6oNb0i0ZtvZEHuL8g2nkYg3i+18MNPezSMqdBSahb7xNqkWl5ygScj1RP9Ghy+CFg==", "title"=>"hola", "content"=>"test", "commit"=>"Create Gossip"}
+No template found for GossipsController#create, rendering head :no_content
+Completed 204 No Content in 38ms (ActiveRecord: 4.9ms)
+
+
+Started POST "/gossips" for ::1 at 2019-04-30 16:53:19 +0200
+Processing by GossipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XLJSEVud7k8bqWcNJV8lc6oNb0i0ZtvZEHuL8g2nkYg3i+18MNPezSMqdBSahb7xNqkWl5ygScj1RP9Ghy+CFg==", "title"=>"hola", "content"=>"test", "commit"=>"Create Gossip"}
+No template found for GossipsController#create, rendering head :no_content
+Completed 204 No Content in 44ms (ActiveRecord: 6.9ms)
+
+
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCity Load (24.6ms)[0m  [1m[34mSELECT  "cities".* FROM "cities" WHERE "cities"."id" = $1 LIMIT $2[0m  [["id", 45], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mCity Load (1.1ms)[0m  [1m[34mSELECT "cities".* FROM "cities"[0m
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCity Load (0.7ms)[0m  [1m[34mSELECT  "cities".* FROM "cities" WHERE "cities"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  [1m[36mUser Create (1.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "description", "email", "age", "city_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["first_name", "Arno"], ["last_name", "Nymous"], ["description", "je suis anonyme"], ["email", "arno@nym.ous"], ["age", 23], ["city_id", 23], ["created_at", "2019-04-30 15:01:56.308275"], ["updated_at", "2019-04-30 15:01:56.308275"]]
+  [1m[35m (43.2ms)[0m  [1m[35mCOMMIT[0m
+Started POST "/gossips" for ::1 at 2019-04-30 17:04:20 +0200
+Processing by GossipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XLJSEVud7k8bqWcNJV8lc6oNb0i0ZtvZEHuL8g2nkYg3i+18MNPezSMqdBSahb7xNqkWl5ygScj1RP9Ghy+CFg==", "title"=>"jhgf", "content"=>"jhgfd", "commit"=>"Create Gossip"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."last_name" = $1 LIMIT $2[0m  [["last_name", "Nymous"], ["LIMIT", 1]]
+  ↳ app/controllers/gossips_controller.rb:15
+No template found for GossipsController#create, rendering head :no_content
+Completed 204 No Content in 68ms (ActiveRecord: 10.2ms)
+
+
+Started GET "/gossips" for ::1 at 2019-04-30 17:19:12 +0200
+Processing by GossipsController#index as HTML
+  Rendering gossips/index.html.erb within layouts/application
+  [1m[36mGossip Load (1.1ms)[0m  [1m[34mSELECT "gossips".* FROM "gossips"[0m
+  ↳ app/views/gossips/index.html.erb:16
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 28], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 28], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 29], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 29], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  Rendered gossips/index.html.erb within layouts/application (75.4ms)
+Completed 200 OK in 88ms (Views: 61.4ms | ActiveRecord: 17.3ms)
+
+
+Started GET "/gossips/new" for ::1 at 2019-04-30 17:19:17 +0200
+Processing by GossipsController#new as HTML
+  Rendering gossips/new.html.erb within layouts/application
+  Rendered gossips/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/gossips" for ::1 at 2019-04-30 17:19:28 +0200
+Processing by GossipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FkR51nCQ3Wo2yIAIjdYqdP9ZsiEG+uRSqXyDct8CVad9fca7G97t6A5LkxEyDLH2Y/3L/i48dkNMQ/fGVYpGOQ==", "title"=>"couco", "content"=>"cocou", "commit"=>"Create Gossip"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."last_name" = $1 LIMIT $2[0m  [["last_name", "Nymous"], ["LIMIT", 1]]
+  ↳ app/controllers/gossips_controller.rb:15
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/gossips_controller.rb:17
+  [1m[36mGossip Create (0.8ms)[0m  [1m[32mINSERT INTO "gossips" ("title", "content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "couco"], ["content", "cocou"], ["user_id", 31], ["created_at", "2019-04-30 15:19:28.287638"], ["updated_at", "2019-04-30 15:19:28.287638"]]
+  ↳ app/controllers/gossips_controller.rb:17
+  [1m[35m (57.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/gossips_controller.rb:17
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/gossips_controller.rb:19
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/gossips_controller.rb:19
+Redirected to http://localhost:3000/gossips
+Completed 302 Found in 69ms (ActiveRecord: 59.5ms)
+
+
+Started GET "/gossips" for ::1 at 2019-04-30 17:19:28 +0200
+Processing by GossipsController#index as HTML
+  Rendering gossips/index.html.erb within layouts/application
+  [1m[36mGossip Load (0.4ms)[0m  [1m[34mSELECT "gossips".* FROM "gossips"[0m
+  ↳ app/views/gossips/index.html.erb:16
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 28], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 28], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 29], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 29], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 31], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  Rendered gossips/index.html.erb within layouts/application (36.2ms)
+Completed 200 OK in 40ms (Views: 34.5ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/gossips/new" for ::1 at 2019-04-30 17:19:49 +0200
+Processing by GossipsController#new as HTML
+  Rendering gossips/new.html.erb within layouts/application
+  Rendered gossips/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 9ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/gossips" for ::1 at 2019-04-30 17:19:55 +0200
+Processing by GossipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Cl2FfPGdv/wBesLmY3T2+Y1isg2pMugGPla6rC/IYiRhZDoRmtOPfjn50f/crm17EcbL0oH0ehfbac4YpUBxug==", "title"=>"hello", "content"=>"", "commit"=>"Create Gossip"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."last_name" = $1 LIMIT $2[0m  [["last_name", "Nymous"], ["LIMIT", 1]]
+  ↳ app/controllers/gossips_controller.rb:15
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/gossips_controller.rb:17
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/gossips_controller.rb:17
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/gossips_controller.rb:19
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/gossips_controller.rb:19
+  Rendering gossips/new.html.erb within layouts/application
+  Rendered gossips/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 13ms (Views: 5.4ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/gossips" for ::1 at 2019-04-30 17:20:29 +0200
+Processing by GossipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Cl2FfPGdv/wBesLmY3T2+Y1isg2pMugGPla6rC/IYiRhZDoRmtOPfjn50f/crm17EcbL0oH0ehfbac4YpUBxug==", "title"=>"hello", "content"=>"", "commit"=>"Create Gossip"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."last_name" = $1 LIMIT $2[0m  [["last_name", "Nymous"], ["LIMIT", 1]]
+  ↳ app/controllers/gossips_controller.rb:15
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/gossips_controller.rb:17
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/gossips_controller.rb:17
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/gossips_controller.rb:19
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/gossips_controller.rb:19
+  Rendering gossips/new.html.erb within layouts/application
+  Rendered gossips/new.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 16ms (Views: 10.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/gossips" for ::1 at 2019-04-30 17:21:14 +0200
+Processing by GossipsController#index as HTML
+  Rendering gossips/index.html.erb within layouts/application
+  [1m[36mGossip Load (0.4ms)[0m  [1m[34mSELECT "gossips".* FROM "gossips"[0m
+  ↳ app/views/gossips/index.html.erb:16
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 28], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 28], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 29], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 29], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 31], ["LIMIT", 1]]
+  ↳ app/views/gossips/index.html.erb:20
+  Rendered gossips/index.html.erb within layouts/application (46.2ms)
+Completed 200 OK in 51ms (Views: 44.5ms | ActiveRecord: 5.1ms)
+
+
+Started GET "/gossips/61" for ::1 at 2019-04-30 17:21:21 +0200
+Processing by GossipsController#show as HTML
+  Parameters: {"id"=>"61"}
+  [1m[36mGossip Load (0.4ms)[0m  [1m[34mSELECT  "gossips".* FROM "gossips" WHERE "gossips"."id" = $1 LIMIT $2[0m  [["id", 61], ["LIMIT", 1]]
+  ↳ app/controllers/gossips_controller.rb:7
+  Rendering gossips/show.html.erb within layouts/application
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 31], ["LIMIT", 1]]
+  ↳ app/views/gossips/show.html.erb:1
+  Rendered gossips/show.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 35ms (Views: 8.0ms | ActiveRecord: 1.4ms)
+
+
