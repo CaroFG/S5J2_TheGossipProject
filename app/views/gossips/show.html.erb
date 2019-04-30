@@ -1,0 +1,9 @@
+ <h3><%= "Gossip  de   #{@gossip_precis.user.first_name} #{@gossip_precis.user.last_name}" %></h3>
+   <p> 
+
+  
+     <%= "#{@gossip_precis.title}" %></br>
+      <%= "#{@gossip_precis.content}" %>
+
+
+<%= link_to "La page de #{@gossip_precis.user.first_name} #{@gossip_precis.user.last_name}", user_path(@gossip_precis.user.id) %>
