@@ -13,3 +13,19 @@
                         data: { confirm: 'Are you sure of the annihilation ?' } %><br>
 
 
+<%= form_tag gossip_comments_path( controller: :comments, action: :create, gossip_id: @gossip_precis.id ), method: "post" do %>
+
+<div class="form-group">
+<label>commentaire</label>
+<%= text_area_tag :content %>
+ </div>
+<div class="form-group">
+<button type="submit" class="btn btn-primary">Ajouter le commentaire </button>
+ </div>
+ <% end %>
+
+ <% @gossip_precis.comments.each do |c|%> 
+ <%= "#{c.content}"%> <br>
+ <%= "#{c.user.first_name}  #{c.user.last_name}"%><br>
+ <%= link_to "Editer ce commentaire", edit_gossip_comment_path(@gossip_precis.id, c.id)%> <br> <br>
+ <% end %> 

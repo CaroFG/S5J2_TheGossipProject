@@ -6,6 +6,7 @@ class Gossip < ApplicationRecord
 	presence: true
 
 	belongs_to :user
+	has_many :comments
 	has_many :join_tag_to_gossips
 	has_many :tags, through: :join_tag_to_gossips
 

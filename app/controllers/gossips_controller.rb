@@ -8,6 +8,7 @@ class GossipsController < ApplicationController
     @gossip_user_id = @gossip_precis.user_id
     @gossip_user_city_id = User.find(@gossip_user_id).city_id
     @gossip_user_city = City.find(@gossip_user_city_id).name
+    # @comment = Comment.new
   end  
 
   def new

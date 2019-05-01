@@ -1,19 +1,16 @@
 Rails.application.routes.draw do
 
-  resources :comments
-  get 'cities/index'
-  get 'cities/show'
-  get 'cities/edit'
-  get 'cities/update'
-  get 'cities/destroy'
-  get 'cities/new'
-get root 'gossips#index'
-get 'about/welcome/:first_name', to: 'about#welcome'
-get 'about/team'
-get 'about/contact'
-resources :gossips
-resources :users
-resources :cities
+ 
+	get root 'gossips#index'
+	get 'about/welcome/:first_name', to: 'about#welcome'
+	get 'about/team'
+	get 'about/contact'
+
+	resources :gossips do
+	  resources :comments
+	end
+	resources :users
+	resources :cities
 
 end
 
