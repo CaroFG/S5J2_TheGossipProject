@@ -5,7 +5,8 @@
       <h6> <%= "#{@gossip_precis.title}" %></h6>
       <%= "#{@gossip_precis.content}" %><br>
       <%= "#{@gossip_precis.user.first_name}" " #{@gossip_precis.user.last_name}" %><br>
-      <%= "#{@gossip_precis.user.city.name}" %><br>
+      <%= link_to "#{@gossip_user_city}", city_path(@gossip_user_city_id) %><br>
+      <%= link_to "Editer ce potin", edit_gossip_path(@gossip_precis.id)%>
 
 
 
