@@ -40,16 +40,21 @@ class CommentsController < ApplicationController
       flash[:alert] = "Try again, my coño friend!"
       render :edit
     end
+  end
 
 
 
 
 
   def destroy
-    @comment.destroy
+     @comment = Comment.find(params[:id])
+     @gossip_precis = Gossip.find(params[:gossip_id])
+     @comment.destroy
+     redirect_to gossip_path(@gossip_precis.id)
+     flash[:success] = "Your gossip has been deleted with success, my coño friend!"
   end
 
-end
+
 
 private
 
