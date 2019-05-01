@@ -4,10 +4,12 @@
   
       <h6> <%= "#{@gossip_precis.title}" %></h6>
       <%= "#{@gossip_precis.content}" %><br>
-      <%= "#{@gossip_precis.user.first_name}" " #{@gossip_precis.user.last_name}" %><br>
-      <%= link_to "#{@gossip_user_city}", city_path(@gossip_user_city_id) %><br>
-      <%= link_to "Editer ce potin", edit_gossip_path(@gossip_precis.id)%>
+      <%= "Auteur :" %> <%=link_to " #{@gossip_precis.user.first_name} #{@gossip_precis.user.last_name}", user_path(@gossip_precis.user.id) %><br>
+      <%= "Ville :" %><%= link_to " #{@gossip_user_city}", city_path(@gossip_user_city_id) %><br>
+      <%= link_to "Editer ce potin", edit_gossip_path(@gossip_precis.id)%><br>
+	  <%= link_to 'Annihiler ce potin',
+            gossip_path(@gossip_precis),
+                        method: :delete,
+                        data: { confirm: 'Are you sure of the annihilation ?' } %><br>
 
 
-
-<%= link_to "La page de #{@gossip_precis.user.first_name} #{@gossip_precis.user.last_name}", user_path(@gossip_precis.user.id) %>

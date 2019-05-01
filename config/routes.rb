@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  resources :comments
   get 'cities/index'
   get 'cities/show'
   get 'cities/edit'

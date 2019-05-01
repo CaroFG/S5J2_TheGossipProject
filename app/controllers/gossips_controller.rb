@@ -46,6 +46,13 @@ class GossipsController < ApplicationController
     end
   end
 
+  def destroy
+        @gossip_precis = Gossip.find(params[:id])
+        @gossip_precis.destroy
+        redirect_to action: 'index'
+        flash[:success] = "Your gossip has been deleted with success, my coño friend!"
+  end
+
 
 private
 
