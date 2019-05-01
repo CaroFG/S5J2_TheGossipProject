@@ -1,18 +1,18 @@
 class GossipsController < ApplicationController
   def index
-  @gossip = Gossip.all
+    @gossip = Gossip.all
   end
 
-	def show
-		@gossip_precis = Gossip.find(params[:id])
-	end  
+  def show
+    @gossip_precis = Gossip.find(params[:id])
+  end  
 
-	def new
-		@gossip_new = Gossip.new
-	end
+  def new
+    @gossip_new = Gossip.new
+  end
 
-	def create
-		anonymous = User.find_by(last_name: "Nymous")
+  def create
+    anonymous = User.find_by(last_name: "Nymous")
     @gossip_new = Gossip.new(title: params[:title], content: params[:content], user: anonymous)
     @gossip_new.save
 
@@ -24,8 +24,8 @@ class GossipsController < ApplicationController
     end
 
     puts @gossip_new.user 
-	end
+  end
 
 
-	
+
 end

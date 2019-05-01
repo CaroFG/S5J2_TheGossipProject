@@ -19,8 +19,9 @@ JoinTagToGossip.destroy_all
 	tag = Tag.create(title: Faker::Book.title)
 	private_message = PrivateMessage.create(content: Faker::Lorem.paragraph, recipient: @user, sender: @user)
 	2.times do
-		@gossip = Gossip.create(title: Faker::Lorem.sentence, content: Faker::Lorem.paragraph, user: @user)
+		@gossip = Gossip.create(title: Faker::Lorem.characters(10), content: Faker::Lorem.paragraph, user: @user)
 	end
 	join_tag_to_gossip = JoinTagToGossip.create(gossip: @gossip, tag: tag)
 end
 
+anonymous= User.create(first_name: "Arno", last_name: "Nymous", description: "je suis anonyme", email: "arno@nym.ous", age: 23, city_id: 33)

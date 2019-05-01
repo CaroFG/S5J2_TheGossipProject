@@ -2,8 +2,11 @@
    <p> 
 
   
-     <%= "#{@gossip_precis.title}" %></br>
-      <%= "#{@gossip_precis.content}" %>
+      <h6> <%= "#{@gossip_precis.title}" %></h6>
+      <%= "#{@gossip_precis.content}" %><br>
+      <%= "#{@gossip_precis.user.first_name}" " #{@gossip_precis.user.last_name}" %><br>
+      <%= "#{@gossip_precis.user.city.name}" %><br>
+
 
 
 <%= link_to "La page de #{@gossip_precis.user.first_name} #{@gossip_precis.user.last_name}", user_path(@gossip_precis.user.id) %>

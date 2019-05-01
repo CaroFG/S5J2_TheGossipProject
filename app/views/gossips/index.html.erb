@@ -11,10 +11,10 @@
 <p>   
 
 	<h2> 
-	<%= link_to " ====> rajoute ton gossip ici <====", new_gossip_path %></h2>
-</div>
-<% @gossip.each do |g| %>
-<div class="card" style="width: 18rem;">
+   <%= link_to " ====> rajoute ton gossip ici <====", new_gossip_path %></h2>
+ </div>
+<!--  <% @gossip.each do |g| %>
+ <div class="card" style="width: 18rem;">
   <div class="card-header">
   	
     <%= "gossip de   #{g.user.first_name} #{g.user.last_name}" %>
@@ -24,6 +24,26 @@
 
   </ul>
 </div>
-<% end %>
+<% end %> -->
 
 </p>
+<% @gossip.each do |g| %>
+  <div class="row">
+    <div class="col-m-2">
+     <img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Anonymous.svg" class="img-circle" height="55" width="55" alt="Avatar">
+   </div>
+   <div class="col-sm-1">
+    <div class="well">
+     <p> <%= "#{g.user.first_name} #{g.user.last_name}" %></p>
+
+   </div>
+ 
+  <div class="row-2">
+    <div class="well">
+      <p><%= link_to "#{g.title}", gossip_path(g.id) %></p>
+ 
+    </div>
+  </div>
+  </div>
+   </div>
+<% end %>
